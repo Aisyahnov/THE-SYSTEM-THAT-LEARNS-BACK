@@ -19,7 +19,7 @@ st.markdown(hide_st_style, unsafe_allow_html=True)
 # INIT STATE
 # =========================
 if 'current_stage' not in st.session_state:
-    st.session_state.current_stage = 4
+    st.session_state.current_stage = 0
 
 # =========================
 # 🎬 INTRO PAGE
