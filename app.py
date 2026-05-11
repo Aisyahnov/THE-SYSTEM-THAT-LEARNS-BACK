@@ -432,7 +432,7 @@ body {
 # INIT STATE
 # =========================
 if "current_stage" not in st.session_state:
-    st.session_state.current_stage = 4
+    st.session_state.current_stage = 0
 
 # Inject global CSS sekali di awal
 st.markdown(GLOBAL_CSS, unsafe_allow_html=True)
